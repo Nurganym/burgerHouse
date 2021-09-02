@@ -1,0 +1,1521 @@
+.main {
+  position: relative;
+  background: rgb(0, 0, 0);
+}
+.main-menu {
+  padding-top: 40px;
+  max-width: 100%;
+  display: none;
+  height: 42vh;
+  display: none;
+}
+.main-menu img {
+  height: 100%;
+  width: 100%;
+}
+.footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.122);
+}
+.svg-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4px;
+  padding-top: 8px;
+}
+.svg-menu__text {
+  font-size: 2vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.svg-menu {
+  width: 60px;
+}
+.menu-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 300px;
+}
+.menu-subtitle {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.menu-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(10, 450px);
+  grid-column-gap: 130px;
+  grid-row-gap: 140px;
+  padding: 0 40px;
+}
+
+.content-title {
+  font-size: 7vw;
+  text-transform: uppercase;
+  padding-top: 60px;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+.content-title4 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+.classical-title {
+  padding-top: 110px;
+}
+.classical {
+  grid-column: 1;
+  grid-row: 1;
+}
+.menu-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.price {
+  font-weight: bold;
+}
+.size {
+  font-size: 3vw;
+  padding-left: 20px;
+}
+.content-info {
+  max-width: 380px;
+  padding-top: 20px;
+  font-size: 2vw;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+  padding-left: 20px;
+}
+.classical-pic {
+  grid-column: 2;
+  grid-row: 1;
+  width: 490px;
+  justify-content: left;
+  background: 0;
+  padding-top: 50px;
+}
+.classical {
+  grid-column: 1;
+  grid-row: 1;
+}
+.firm-pic {
+  grid-column: 1;
+  grid-row: 2;
+  width: 490px;
+}
+.firm {
+  grid-column: 2;
+  grid-row: 2;
+}
+.london-burger {
+  grid-column: 1;
+  grid-row: 3;
+}
+.london-pic {
+  grid-column: 2;
+  grid-row: 3;
+  width: 490px;
+}
+.california {
+  grid-column: 2;
+  grid-row: 4;
+}
+.california-pic {
+  grid-column: 1;
+  grid-row: 4;
+  width: 490px;
+}
+.chicken-burger {
+  grid-column: 1;
+  grid-row: 5;
+}
+.chicken-pic {
+  grid-column: 2;
+  grid-row: 5;
+  width: 520px;
+}
+.mutton {
+  grid-column: 2;
+  grid-row: 6;
+}
+.mutton-pic {
+  grid-column: 1;
+  grid-row: 6;
+  width: 490px;
+}
+.beef-burger {
+  grid-column: 1;
+  grid-row: 7;
+}
+.beef-pic {
+  grid-column: 2;
+  grid-row: 7;
+  width: 490px;
+  margin-top: 50px;
+}
+.green-burger {
+  grid-column: 2;
+  grid-row: 8;
+}
+.green-pic {
+  grid-column: 1;
+  grid-row: 8;
+  width: 490px;
+  margin-top: 100px;
+}
+.steak {
+  grid-column: 1;
+  grid-row: 9;
+}
+.steak-pic {
+  grid-column: 2;
+  grid-row: 9;
+  width: 490px;
+}
+.megacheese {
+  grid-column: 2;
+  grid-row: 10;
+}
+.megacheese-pic {
+  grid-column: 1;
+  grid-row: 10;
+  width: 490px;
+  margin-bottom: 40px;
+}
+.menu-item__preview {
+  height: 40vh;
+  background: url(../images/menubg2.jpg) center;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+}
+.block-image {
+  height: 40vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.menu-item__content--opened {
+  height: 6100px;
+  transition: 3s ease;
+}
+
+.menu1-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 500px);
+  grid-column-gap: 60px;
+  grid-row-gap: 30px;
+  padding: 0 40px;
+}
+.content-title1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  padding-top: 40px;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+.content-title5 {
+  font-size: 4vw;
+  text-transform: uppercase;
+  padding-top: 40px;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+.caesar-pic {
+  grid-column: 2;
+  grid-row: 1;
+  max-width: 500px;
+  height: 440px;
+  padding-top: 70px;
+}
+.caesar {
+  grid-column: 1;
+  grid-row: 1;
+}
+.greek-pic {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 500px;
+  height: 400px;
+}
+.greek {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.beef__grill-pic {
+  grid-column: 2;
+  grid-row: 3;
+  max-width: 500px;
+}
+.beet-salat {
+  grid-column: 2;
+  grid-row: 4;
+}
+.beet-pic {
+  grid-column: 1;
+  grid-row: 4;
+  max-width: 550px;
+}
+.mutton-pic {
+  grid-column: 1;
+  grid-row: 6;
+}
+.menu1-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.menu1-item__preview {
+  height: 40vh;
+  background: url(../images/salats.png) center;
+  background-size: cover;
+  cursor: pointer;
+}
+.menu1-item__content--opened {
+  height: 2200px;
+  transition: 3s ease;
+}
+.menu2-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(8, 700px);
+  grid-row-gap: 120px;
+  grid-column-gap: 30px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.menu2-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.menu2-item__preview {
+  height: 40vh;
+  background: url(../images/snacks.png) center;
+  background-size: cover;
+  padding: 20px;
+  cursor: pointer;
+}
+.kesadilia-pic {
+  grid-column: 1;
+  grid-row: 2;
+  height: 70vh;
+  padding-top: 100px;
+}
+.kesadilia {
+  padding-left: 90px;
+}
+.stripsy-pic {
+  grid-column: 2;
+  grid-row: 1;
+  height: 70vh;
+  margin-top: 60px;
+}
+.stripsy {
+  grid-column: 1;
+  grid-row: 1;
+  height: 70vh;
+}
+.nachos-pic {
+  grid-column: 2;
+  grid-row: 3;
+  height: 80vh;
+  margin-top: 70px;
+}
+.nachos {
+  padding-top: 70px;
+}
+.crisps {
+  padding-top: 70px;
+}
+.crisps-pic {
+  grid-column: 1;
+  grid-row: 4;
+  height: 90vh;
+}
+.garlics-pic {
+  grid-column: 2;
+  grid-row: 5;
+  height: 80vh;
+  padding-top: 100px;
+  margin-left: 160px;
+}
+.fries-pic {
+  grid-column: 1;
+  grid-row: 6;
+  height: 90vh;
+  margin-left: 120px;
+}
+.classic-fries {
+  grid-column: 2;
+  grid-row: 6;
+}
+.firm-fries {
+  grid-column: 2;
+  grid-row: 6;
+  padding-top: 300px;
+}
+.potato-pic {
+  grid-column: 2;
+  grid-row: 7;
+  height: 100vh;
+  padding-top: 100px;
+}
+.potato {
+  padding-top: 150px;
+}
+.fried-potato {
+  grid-column: 2;
+  grid-row: 8;
+  height: 70vh;
+  height: 700px;
+}
+.potato-mushrooms {
+  padding-top: 70px;
+  grid-column: 2;
+}
+.menu-padding {
+  padding-bottom: 100px;
+}
+.menu2-item__content--opened {
+  height: 6600px;
+  transition: 3s ease;
+}
+.menu3-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu3-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.menu3-item__content--opened {
+  height: 1600px;
+  transition: 2s ease;
+}
+
+.menu3-item__preview {
+  height: 40vh;
+  background: url(../images/pizza.png) center;
+  background-size: cover;
+  padding: 20px;
+  cursor: pointer;
+}
+.peperoni-pic {
+  grid-column: 2;
+  grid-row: 1;
+  height: 80vh;
+  padding-top: 50px;
+}
+.margarita-pic {
+  grid-column: 1;
+  grid-row: 2;
+  height: 60vh;
+}
+.menu4-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+.menu4-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.menu4-item__preview {
+  height: 40vh;
+  background: url(../images/meat.png) center;
+  background-size: cover;
+  padding: 20px;
+  cursor: pointer;
+}
+.fish-pic {
+  grid-column: 2;
+  grid-row: 1;
+  height: 80vh;
+  padding-top: 50px;
+}
+.grill-fish__pic {
+  grid-column: 1;
+  grid-row: 2;
+  height: 70vh;
+}
+.medalons-pic {
+  grid-column: 2;
+  grid-row: 3;
+  height: 76vh;
+  padding-top: 70px;
+}
+.ribay-pic {
+  grid-column: 1;
+  grid-row: 4;
+  height: 70vh;
+}
+.tabaka-pic {
+  grid-column: 2;
+  grid-row: 5;
+  height: 60vh;
+}
+.tabaka {
+  grid-column: 1;
+  grid-row: 5;
+}
+.fillet {
+  padding-top: 0;
+}
+.fillet-pic {
+  grid-column: 1;
+  grid-row: 6;
+  height: 50vh;
+  padding-left: 20px;
+}
+.chikens-pic {
+  grid-column: 2;
+  grid-row: 7;
+  height: 50vh;
+  margin-bottom: 140px;
+}
+.menu4-item__content--opened {
+  height: 5200px;
+  transition: 3s ease;
+}
+.menu5-item__content {
+  height: 0;
+  display: grid;
+  grid-template-columns: 600px 500px;
+  grid-template-rows: repeat(3, 200px);
+  grid-column-gap: 8%;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+}
+.menu5-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.menu5-item__preview {
+  height: 40vh;
+  background: url(../images/garnish.jpg) center;
+  background-size: cover;
+  padding: 20px;
+  cursor: pointer;
+}
+.menu5-item__content--opened {
+  height: 800px;
+  transition: 1.7s ease;
+}
+.menu6-item__content {
+  height: 0;
+  background: black;
+  color: #ffffff;
+  overflow: hidden;
+  transition: height 1.3s ease;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.menu6-item__title {
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  font-size: 5vw;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.menu6-item__preview {
+  height: 40vh;
+  background: url(../images/sup.png) center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.menu6-item__content--opened {
+  height: 2350px;
+  transition: 3s ease;
+}
+.color-active {
+  color: rgb(236, 123, 58);
+}
+.menu6-item__content {
+  display: grid;
+  grid-template-columns: 1f 11r;
+  grid-template-rows: 1fr 1fr;
+}
+.blue {
+  color: #f39200;
+  font-weight: 600;
+}
+.som {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.soup-chilly {
+  grid-column: 1;
+  grid-row: 1;
+}
+.chilly-pic {
+  grid-column: 2;
+  grid-row: 1;
+  height: 70vh;
+  padding-top: 60px;
+}
+
+.soup-peas {
+  grid-column: 2;
+  grid-row: 2;
+}
+.peas {
+  grid-column: 1;
+  grid-row: 2;
+}
+.soup {
+  grid-column: 1;
+  grid-row: 3;
+}
+.soup-pic {
+  grid-column: 2;
+  grid-row: 3;
+}
+.soup2 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.soup3 {
+  grid-column: 1;
+  grid-row: 5;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-item__content {
+    transition: none;
+  }
+  .menu1-item__content {
+    transition: none;
+  }
+  .menu2-item__content {
+    transition: none;
+  }
+  .menu3-item__content {
+    transition: none;
+  }
+  .menu4-item__content {
+    transition: none;
+  }
+  .menu5-item__content {
+    transition: none;
+  }
+  .menu6-item__content {
+    transition: none;
+  }
+  .menu3-item__content--opened {
+    transition: none;
+    height: 100%;
+  }
+  .menu2-item__content--opened {
+    transition: none;
+    height: 100%;
+  }
+  .menu1-item__content--opened {
+    transition: none;
+    height: 100%;
+  }
+  .menu-item__content--opened {
+    height: 100%;
+    transition: none;
+  }
+  .menu4-item__content--opened {
+    height: 100%;
+    transition: none;
+  }
+  .menu5-item__content--opened {
+    height: 100%;
+    transition: none;
+  }
+  .menu6-item__content--opened {
+    height: 100%;
+    transition: none;
+  }
+  .menu-item__content {
+    padding-left: 30px;
+  }
+  .chikens-pic {
+    height: 20vh;
+  }
+  .classical-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+  .firm-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .london-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .california-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .chicken-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .mutton-pic {
+    width: 320px;
+    height: 370px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .beef-pic {
+    width: 300px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+  }
+  .green-pic {
+    width: 320px;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .steak-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .megacheese-pic {
+    width: 320px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .greek-pic {
+    max-width: 300px;
+    height: 220px;
+  }
+  .caesar-pic {
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .beet-pic {
+    height: 220px;
+  }
+  .beef__grill-pic {
+    height: 220px;
+  }
+  .kesadilia {
+    padding-left: 0;
+  }
+  .kesadilia-pic {
+    padding-top: 10px;
+    height: 300px;
+    padding-bottom: 60px;
+  }
+  .stripsy {
+    height: 200px;
+  }
+  .stripsy-pic {
+    height: 210px;
+    margin-top: 20px;
+  }
+  .nachos-pic {
+    height: 260px;
+  }
+  .crisps-pic {
+    height: 380px;
+    width: 270px;
+    padding-left: 70px;
+    padding-bottom: 40px;
+  }
+  .garlics-pic {
+    padding-left: 80px;
+    margin: 0;
+    width: 240px;
+    padding-bottom: 50px;
+  }
+  .fries-pic {
+    margin-left: 0;
+    height: 400px;
+    width: 350px;
+    padding-left: 80px;
+  }
+  .firm-fries {
+    padding-top: 0;
+  }
+  .potato {
+    padding: 0;
+  }
+  .potato-pic {
+    margin: 0;
+    height: 300px;
+    width: 400px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .fried-potato {
+    height: 400px;
+  }
+  .bur-pic {
+    margin: 0;
+  }
+  .menu2-item__content {
+    padding-right: 40px;
+  }
+  .svg-container {
+    justify-content: center;
+  }
+  .svg-menu {
+    width: 40px;
+  }
+  .svg-menu__text {
+    font-size: 4vw;
+  }
+  .menu2-item__content--opened {
+    height: 100%;
+  }
+
+  .intro__title {
+    display: none;
+  }
+  .menu-item__preview {
+    height: 14vh;
+  }
+  .menu1-item__preview {
+    height: 14vh;
+  }
+  .menu2-item__preview {
+    height: 14vh;
+  }
+  .menu3-item__preview {
+    height: 14vh;
+  }
+  .menu4-item__preview {
+    height: 14vh;
+  }
+  .menu5-item__preview {
+    height: 14vh;
+  }
+  .menu6-item__preview {
+    height: 14vh;
+  }
+  .menu-item__title {
+    padding-top: 30px;
+    font-size: 10vw;
+  }
+  .menu1-item__title {
+    padding-top: 36px;
+    font-size: 10vw;
+  }
+  .menu2-item__title {
+    padding-top: 10px;
+    font-size: 10vw;
+  }
+  .menu3-item__title {
+    padding-top: 14px;
+    font-size: 10vw;
+  }
+  .menu4-item__title {
+    padding-top: 14px;
+    font-size: 10vw;
+  }
+  .menu5-item__title {
+    padding-top: 14px;
+    font-size: 10vw;
+  }
+  .menu6-item__title {
+    padding-top: 16px;
+    font-size: 10vw;
+  }
+  .content-title {
+    font-size: 10vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  .content-title1 {
+    font-size: 10vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  .content-info {
+    max-width: 420px;
+    padding-top: 20px;
+    font-size: 4vw;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .size {
+    font-size: 5vw;
+    padding-bottom: 20px;
+  }
+
+  .garlics-pic {
+    grid-column: 2;
+    grid-row: 5;
+    height: 40vh;
+    padding-top: 50px;
+  }
+  .header__logo-pic {
+    padding-left: 0;
+    margin: 0;
+  }
+  .chilly-pic {
+    width: 280px;
+    height: 210px;
+    padding-top: 0;
+    padding-left: 40px;
+  }
+  .peas-pic {
+    height: 36vh;
+    padding-bottom: 40px;
+  }
+  .soup-pic {
+    height: 36vh;
+    padding-bottom: 40px;
+  }
+  .soup-pic2 {
+    height: 46vh;
+    padding-bottom: 40px;
+  }
+  .peperoni-pic {
+    width: 360px;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+  .margarita-pic {
+    width: 340px;
+    height: 300px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+  }
+  .fish-pic {
+    padding-top: 0;
+    height: 320px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .grill-fish__pic {
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .medalons-pic {
+    padding-top: 0;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .ribay-pic {
+    padding-top: 0;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .tabaka-pic {
+    padding-top: 0;
+    height: 280px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .fillet-pic {
+    padding-top: 20px;
+    height: 250px;
+    width: 300px;
+    padding-left: 34px;
+    padding-bottom: 60px;
+  }
+  .menu5-item__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .grild-cheese {
+    padding: 0;
+  }
+  .free-smiles {
+    padding: 0;
+  }
+  .content-title5 {
+    font-size: 10vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .intro__title {
+    display: none;
+  }
+  .header__logo {
+    padding-left: 155px;
+  }
+  .menu-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu1-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu2-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu3-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu6-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu4-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .main-menu {
+    display: block;
+  }
+}
+
+@media screen and (width: 768px) {
+  .menu-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu3-item__content--opened {
+    height: 1600px;
+  }
+  .main-menu img {
+    display: none;
+  }
+  .menu-item__preview {
+    height: 14vh;
+  }
+  .menu1-item__preview {
+    height: 14vh;
+  }
+  .menu2-item__preview {
+    height: 14vh;
+  }
+  .menu3-item__preview {
+    height: 14vh;
+  }
+  .menu4-item__preview {
+    height: 14vh;
+  }
+  .menu5-item__preview {
+    height: 14vh;
+  }
+  .menu6-item__preview {
+    height: 14vh;
+  }
+  .menu-item__title {
+    padding-top: 55px;
+    font-size: 9vw;
+  }
+  .menu1-item__title {
+    padding-top: 55px;
+    font-size: 9vw;
+  }
+  .menu2-item__title {
+    padding-top: 30px;
+    font-size: 9vw;
+  }
+  .menu3-item__title {
+    padding-top: 40px;
+    font-size: 9vw;
+  }
+  .menu4-item__title {
+    padding-top: 30px;
+    font-size: 9vw;
+  }
+  .menu5-item__title {
+    padding-top: 40px;
+    font-size: 9vw;
+  }
+  .menu6-item__title {
+    padding-top: 30px;
+    font-size: 9vw;
+  }
+  .content-info {
+    font-size: 35px;
+  }
+  .size {
+    font-size: 33px;
+  }
+  .menu-item__content--opened {
+    height: 9000px;
+  }
+  .menu1-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu1-item__content--opened {
+    height: 3000px;
+  }
+  .menu2-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu2-item__content--opened {
+    height: 5000px;
+  }
+  .kesadilia-pic {
+    height: 30vh;
+  }
+  .stripsy-pic {
+    height: 30vh;
+  }
+  .nachos-pic {
+    height: 30vh;
+  }
+  .crisps-pic {
+    height: 30vh;
+  }
+  .garlics-pic {
+    height: 30vh;
+  }
+  .fries-pic {
+    height: 40vh;
+  }
+  .firm-fries {
+    padding-top: 30px;
+  }
+  .potato-pic {
+    height: 60vh;
+  }
+  .svg-menu__text {
+    font-size: 30px;
+  }
+  .menu6-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu6-item__content--opened {
+    height: 3000px;
+  }
+  .menu3-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu3-item__content--opened {
+    height: 2000px;
+  }
+  .menu4-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu4-item__content--opened {
+    height: 6000px;
+  }
+  .menu5-item__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu5-item__content--opened {
+    height: 1000px;
+  }
+  .content-title5 {
+    font-size: 50px;
+  }
+  .chilly-pic {
+    height: 40vh;
+  }
+  .peas {
+    height: 30vh;
+  }
+  .soup-pic {
+    height: 40vh;
+  }
+  .menu3-item__content--opened {
+    height: 1427px;
+  }
+  .soup2 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .soup3 {
+    grid-column: 1;
+    grid-row: 5;
+    padding-bottom: 120px;
+  }
+  .peperoni-pic {
+    height: 50vh;
+  }
+  .margarita-pic {
+    height: 37vh;
+  }
+  .menu4-item__content--opened {
+    height: 4600px;
+  }
+  .fish-pic {
+    height: 45vh;
+  }
+  .grill-fish__pic {
+    height: 40vh;
+  }
+  .medalons-pic {
+    height: 46vh;
+  }
+  .ribay-pic {
+    height: 35vh;
+  }
+  .tabaka-pic {
+    height: 30vh;
+    margin-bottom: 60px;
+  }
+  .fillet-pic {
+    height: 30vh;
+    margin-bottom: 60px;
+  }
+  .chikens-pic {
+    height: 30vh;
+    margin-bottom: 60px;
+  }
+  .mutton-pic {
+    height: 40vh;
+    grid-column: 1;
+    grid-row: 6;
+  }
+}
+@media screen and (width: 1024px) {
+  .main-menu img {
+    display: none;
+  }
+  .menu-item__preview {
+    height: 14vh;
+  }
+  .menu1-item__preview {
+    height: 14vh;
+  }
+  .menu2-item__preview {
+    height: 14vh;
+  }
+  .menu3-item__preview {
+    height: 14vh;
+  }
+  .menu4-item__preview {
+    height: 14vh;
+  }
+  .menu5-item__preview {
+    height: 14vh;
+  }
+  .menu6-item__preview {
+    height: 14vh;
+  }
+  .menu-item__title {
+    padding-top: 50px;
+    font-size: 9vw;
+  }
+  .menu1-item__title {
+    padding-top: 50px;
+    font-size: 9vw;
+  }
+  .menu2-item__title {
+    padding-top: 50px;
+    font-size: 9vw;
+  }
+  .menu3-item__title {
+    padding-top: 40px;
+    font-size: 9vw;
+  }
+  .menu4-item__title {
+    padding-top: 50px;
+    font-size: 9vw;
+  }
+  .menu5-item__title {
+    padding-top: 50px;
+    font-size: 9vw;
+  }
+  .menu6-item__title {
+    padding-top: 40px;
+    font-size: 9vw;
+  }
+  .menu-item__content {
+    grid-column-gap: 60px;
+    grid-row-gap: 2px;
+  }
+  .classical-pic {
+    width: 350px;
+  }
+  .firm-pic {
+    width: 350px;
+  }
+  .london-pic {
+    width: 350px;
+  }
+  .california-pic {
+    width: 350px;
+  }
+  .chicken-pic {
+    width: 350px;
+  }
+  .mutton-pic {
+    width: 350px;
+  }
+  .beef-pic {
+    width: 350px;
+  }
+  .green-pic {
+    width: 350px;
+  }
+  .steak-pic {
+    width: 350px;
+  }
+  .megacheese-pic {
+    width: 350px;
+  }
+  .content-info {
+    font-size: 3vw;
+  }
+  .caesar-pic {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 500px;
+    height: 440px;
+    padding-top: 70px;
+  }
+  .caesar {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .greek-pic {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 500px;
+    height: 400px;
+  }
+  .greek {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .beef__grill-pic {
+    grid-column: 2;
+    grid-row: 3;
+    max-width: 500px;
+  }
+  .beet-salat {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .beet-pic {
+    grid-column: 1;
+    grid-row: 4;
+    max-width: 550px;
+  }
+  .menu1-item__content--opened {
+    height: 1600px;
+    transition: 3s ease;
+  }
+  .menu1-item__content {
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    padding: 0 20px;
+    grid-template-rows: repeat(4, 400px);
+  }
+  .menu-item__content--opened {
+    height: 4600px;
+  }
+  .caesar-pic {
+    width: 350px;
+  }
+  .greek-pic {
+    width: 350px;
+  }
+  .beef__grill-pic {
+    max-width: 350px;
+  }
+  .beet-pic {
+    max-width: 400px;
+  }
+  .menu2-item__content {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(8, 600px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .menu2-item__content--opened {
+    height: 4800px;
+  }
+  .svg-menu__text {
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .kesadilia-pic {
+    height: 30vh;
+  }
+  .stripsy-pic {
+    height: 30vh;
+  }
+  .nachos-pic {
+    height: 30vh;
+  }
+  .crisps-pic {
+    height: 30vh;
+  }
+  .garlics-pic {
+    height: 30vh;
+  }
+  .fries-pic {
+    height: 40vh;
+  }
+  .potato-pic {
+    height: 40vh;
+  }
+  .garlics-pic {
+    padding-top: 0;
+    margin-left: 0;
+  }
+  .menu6-item__content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .chilly-pic {
+    height: 30vh;
+  }
+  .peas {
+    height: 30vh;
+  }
+  .soup-pic {
+    height: 26vh;
+  }
+  .soup2 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .soup3 {
+    grid-column: 1;
+    grid-row: 5;
+    padding-bottom: 120px;
+  }
+  .peperoni-pic {
+    height: 30vh;
+  }
+  .margarita-pic {
+    height: 20vh;
+  }
+  .fish-pic {
+    height: 25vh;
+  }
+  .grill-fish__pic {
+    height: 24vh;
+  }
+  .medalons-pic {
+    height: 26vh;
+  }
+  .ribay-pic {
+    height: 25vh;
+  }
+  .tabaka-pic {
+    height: 20vh;
+  }
+  .fillet-pic {
+    height: 20vh;
+  }
+  .chikens-pic {
+    height: 20vh;
+  }
+  .menu4-item__content--opened {
+    height: 3000px;
+    transition: 3s ease;
+  }
+  .content-title5 {
+    font-size: 5vw;
+  }
+}

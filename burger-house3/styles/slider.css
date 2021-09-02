@@ -1,0 +1,126 @@
+.slick-active  {
+  outline: 0;
+  
+}
+.slider__item{
+  overflow: hidden;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__item img {
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+}
+
+.slider-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-track{
+  display: flex;
+  justify-content: flex-start;
+}
+.slick-arrow{ 
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  font-size: 0;
+  background: none;
+  border: none;
+  width: 10px;
+  height: 20px;
+}
+.slick-arrow:focus {
+  outline: none;
+}
+.slick-arrow.slick-prev{
+  background-image: url(./images/sl-arrow_l.svg);
+  background-size: cover;
+  left: 10px;
+}
+.slick-arrow.slick-next{
+  right: 10px;
+  background-image: url(./images/sl-arrow_r.svg);
+  background-size: cover;
+}
+.slick-arrow.slick-disabled{}
+
+@media screen and (width: 767px) {
+  .header__logo-pic {
+    width: 50px;
+  }
+  .header__item {
+    margin: 15px;
+  }
+  .header__link {
+    font-size: 2vw;
+  }
+  .header__icon {
+    font-size: 1.3vw;
+    padding-top: 18px;
+    padding-right: 2px;
+    
+  }
+  .header__icons {
+  margin-left: 20px;
+  }
+}
+.slick-active  {
+  outline: 0;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__item img {
+  background-size: cover;
+  width: 100%;
+}
+
+.slider-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-track{
+  display: flex;
+  justify-content: flex-start;
+}
+.slick-arrow{ 
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  font-size: 0;
+  background: none;
+  border: none;
+  width: 10px;
+  height: 20px;
+}
+.slick-arrow:focus {
+  outline: none;
+}
+.slick-arrow.slick-prev{
+  background-image: url(../images/sl-arrow_l.svg);
+  background-size: cover;
+  left: 10px;
+  z-index: 2;
+}
+.slick-arrow.slick-next{
+  right: 10px;
+  background-image: url(../images/sl-arrow_r.svg);
+  background-size: cover;
+  z-index: 2;
+}
+.slick-arrow.slick-disabled{}

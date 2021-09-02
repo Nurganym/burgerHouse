@@ -1,0 +1,185 @@
+.header {
+  background: rgb(0, 0, 0);
+  position: fixed;
+}
+.house__title {
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 20%;
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.house__inner {
+  padding-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+}
+.kiev1 {
+  background-image: url(../images/kiev1.png);
+  background-size: cover;
+  height: 50vh;
+
+}
+.plaza1 {
+  background-image: url(../images/plaza1.png);
+  background-size: cover;
+  
+}
+
+.cosmos1 {
+  background-image: url(../images/cosmos1.png);
+  background-size: cover;
+
+}
+.archa1 {
+  background-image: url(../images/archa1.png);
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__wrapper {
+    position: fixed;
+    background: black;
+    width: 100%;
+  }
+  .house__inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .kiev1 {
+    height: 22vh;
+  
+  }
+  .plaza1 {
+    height: 22vh;
+  }
+  
+  .cosmos1 {
+    height: 22vh;
+  }
+  .archa1 {
+    height: 22vh;
+  }
+  .house__title {
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 54px;
+    text-decoration: underline;
+  }
+  .black-order {
+    display: none;
+  }
+  .order-inner__img {
+    display: none;
+  }
+  .order__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .kiev1 {
+    height: 21.4vh;
+  
+  }
+  .plaza1 {
+    height: 21.4vh;
+  }
+  
+  .cosmos1 {
+    height: 21.4vh;
+  }
+  .archa1 {
+    height: 21.4vh;
+  }
+  .house__title {
+    font-size: 9vw;
+    text-align: center;
+    padding-top: 62px;
+  }
+}
+
+@media screen and (width: 320px) {
+  .kiev1 {
+    height: 21vh;
+  
+  }
+  .plaza1 {
+    height: 21vh;
+  }
+  
+  .cosmos1 {
+    height: 21vh;
+  }
+  .archa1 {
+    height: 21vh;
+  }
+  .house__title {
+    font-size: 9vw;
+    text-align: center;
+    padding-top: 62px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .kiev1 {
+    height: 21.9vh;
+  
+  }
+  .plaza1 {
+    height: 21.9vh;
+  }
+  
+  .cosmos1 {
+    height: 21.9vh;
+  }
+  .archa1 {
+    height: 21.9vh;
+  }
+  .house__title {
+    font-size: 9vw;
+    text-align: center;
+    padding-top: 92px;
+  }
+  .house__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (width: 768px) {
+  .kiev1 {
+    height: 22.3vh;
+  
+  }
+  .plaza1 {
+    height: 22.3vh;
+  }
+  
+  .cosmos1 {
+    height: 22.3vh;
+  }
+  .archa1 {
+    height: 22.3vh;
+  }
+  .house__title {
+    font-size: 9vw;
+    text-align: center;
+    padding-top: 92px;
+  }
+  .house__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 414px) {
+  .house__title {
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 52px;
+  }
+  
+  }

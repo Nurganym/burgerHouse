@@ -1,0 +1,372 @@
+.title {
+  text-transform: uppercase;
+  font-size: 7vw;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  padding-top: 22.5%;
+}
+.main-info__title {
+  padding-top: 14%;
+}
+.main-info__menu {
+  background: url(../images/image2.png) center;
+  height: 100vh;
+  background-size: cover;
+}
+.main-info__houses{
+  background: url(../images/image3.png) center;
+  height: 100vh;
+  background-size: cover;
+}
+.main-info__propositions {
+  background: url(../images/image4.png) center;
+  height: 100vh;
+  background-size: cover;
+}
+.main-info__information {
+  background: url(../images/image5.png) center;
+  height: 100vh;
+  background-size: cover;
+}
+.main-info__partnership  {
+  background: url(../images/image6.jpg) center;
+  height: 100vh;
+  background-size: cover;
+}
+.color-active {
+  color: #F39200;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 60px 20px 60px;
+}
+.footer__icons {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 6%;
+}
+.footer__icon {
+  padding-right: 24px;
+}
+.footer__icon:last-child {
+  padding-right: 0;
+}
+.f-icons {
+  font-size: 1.3vw;
+  color: white;
+  padding-top: 2%;
+}
+.icons {
+  font-size: 20px;
+}
+
+.footer-info {
+  font-weight: normal;
+  font-size: 1.4vw;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
+.copyright {
+  letter-spacing: 2px;
+  font-size: 1.3vw;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.734);
+}
+.footer-m {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .main-info__menu {
+    background: url(../images/menu/photo5303524831301578279.jpg) center no-repeat;
+  }
+  .main-info__houses {
+    background: url(../images/menu/houses.jpg) center no-repeat;
+  }
+  .main-info__propositions {
+    background: url(../images/menu/propositions.jpg) center no-repeat;
+  }
+  .main-info__information {
+    background: url(../images/menu/info.jpg) center no-repeat;
+  }
+  .main-info__partnership {
+    background: url(../images/menu/partnership.jpg) center no-repeat;
+  }
+  .intro {
+    display: none;
+  }
+  .header__wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+  }
+  .title {
+    padding-top: 24px;
+    font-size: 10vw;
+  }
+  .f-icons {
+    font-size: 4.5vw;
+    color: white;
+    padding-right: 2px;
+    padding-bottom: 20px;
+  }
+  .footer__icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  .footer-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.copyright {
+  letter-spacing: 1px;
+  font-size: 4vw;
+  display: none;
+}
+.footer-info {
+  font-weight: normal;
+  display: block;
+  font-size: 4vw
+}
+.footer-m {
+  display: block;
+}
+.copyright-m {
+  letter-spacing: 1px;
+  font-size: 3.4vw;
+  color: rgba(255, 255, 255, 0.734);
+  padding-top: 14px;
+  padding-left: 74px;
+  font-weight: 600;
+}
+.footer-inner {
+  border-top: 1px solid rgba(255, 255, 255, 0.734);
+}
+}
+@media screen and (width: 768px) {
+  .header__wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+  }
+  footer {
+    display: block;
+  }
+  .main-info__menu {
+    height: 9.7vh;
+    }
+    .main-info__houses {
+      height: 9.7vh;
+    }
+    .main-info__propositions {
+      height: 9.7vh;
+      }
+    .main-info__information {
+      height: 9.7vh;
+    }
+    .main-info__partnership {
+      height: 9.7vh;
+    }
+    .title {
+      padding-top: 50px;
+      font-size: 6vw;
+    }
+    .f-icons {
+      font-size: 2.5vw;
+      color: white;
+      padding-right: 30px;
+    }
+
+    .footer__icons {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 250px;
+    }
+    .footer-inner {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .intro {
+      padding-top: 40px;
+    }
+    .main-info__menu {
+      background: url(../images/menu/photo5303524831301578279.jpg) center no-repeat;
+      background-size: cover;
+      height: 14vh;
+    }
+    .main-info__houses {
+      background: url(../images/menu/houses.jpg) center no-repeat;
+      background-size: cover;
+      height: 14vh;
+    }
+    .main-info__propositions {
+      background: url(../images/menu/propositions.jpg) center no-repeat;
+      background-size: cover;
+      height: 14vh;
+    }
+    .main-info__information {
+      background: url(../images/menu/info.jpg) center no-repeat;
+      background-size: cover;
+      height: 14vh;
+    }
+    .main-info__partnership {
+      background: url(../images/menu/partnership.jpg) center no-repeat;
+      background-size: cover;
+        height: 14vh;
+    }
+}
+@media screen and (max-width: 375px) {
+  footer {
+    display: block;
+  }
+  .main-info__menu {
+    height: 10.9vh;
+    background-size: cover;
+    }
+    .main-info__houses {
+      height: 10.9vh;
+    }
+    .main-info__propositions {
+      height: 10.9vh;
+      }
+    .main-info__information {
+      height: 10.9vh;
+    }
+    .main-info__partnership {
+      height: 10.9vh;
+    }
+    .footer__icons {
+     padding-left: 80px;
+    }
+    .header__logo-pic {
+      margin-left: 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+  .header__logo-pic {
+    margin-left: 24px;
+  }
+  .footer__icons {
+    padding-left: 70px;
+   }
+}
+@media screen and (max-width: 320px) {
+  .header__logo-pic {
+    margin-left: 10px;
+  }
+  .footer__icons {
+    padding-left: 60px;
+   }
+}
+@media screen and (width: 1024px) {
+  footer {
+    display: block;
+  }
+  .main-info__menu {
+    background: url(../images/menu/photo5303524831301578279.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__houses {
+    background: url(../images/menu/houses.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__propositions {
+    background: url(../images/menu/propositions.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__information {
+    background: url(../images/menu/info.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__partnership {
+    background: url(../images/menu/partnership.jpg) center no-repeat;
+    background-size: cover;
+      height: 14vh;
+  }
+    .title {
+      padding-top: 20px;
+      font-size: 6vw;
+    }
+    .f-icons {
+      font-size: 3vw;
+      color: white;
+      padding-right: 30px;
+    }
+    .footer__icons {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 350px;
+    }
+    .footer-inner {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .header__wrapper {
+      position: fixed;
+      padding: 0;
+      width: 100%;
+      background-color: black;
+    }
+    .header__link {
+      padding-right: 20px;
+    }
+    .title {
+      padding-top: 40px;
+      font-size: 8vw;
+    }
+    .copyright {
+      font-size: 3vw;
+    }
+}
+@media screen and (max-width: 414px) {
+  .main-info__menu {
+    background: url(../images/menu/photo5303524831301578279.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__houses {
+    background: url(../images/menu/houses.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__propositions {
+    background: url(../images/menu/propositions.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__information {
+    background: url(../images/menu/info.jpg) center no-repeat;
+    background-size: cover;
+    height: 14vh;
+  }
+  .main-info__partnership {
+    background: url(../images/menu/partnership.jpg) center no-repeat;
+    background-size: cover;
+      height: 14vh;
+    }
+    .header__logo-pic {
+      margin-left: 16px;
+    }
+}
+
+@media screen and (width: 768px) {
+  .copyright {
+    font-size: 3vw;
+  }
+  .f-icons {
+   font-size: 20px;
+   padding-top: 15px;
+  }
+
+}

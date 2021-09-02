@@ -1,0 +1,184 @@
+.partnership {
+  margin: 0 50px;
+}
+.partnership-title {
+  color: white;
+  font-size: 6vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: start;
+  padding-top: 120px;
+}
+.partnership-info {
+  max-width: 100%;
+  font-size: 3vw;
+  text-transform: uppercase;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+  letter-spacing: 2px;
+  color: white;
+}
+.partnership-subtitle {
+  font-size: 3vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+
+}
+.profiles {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5vw;
+  letter-spacing: 3px;
+  min-width: 46vw;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: block;
+}
+.input-profile {
+  width: 600px;
+  height: 40px;
+}
+.bigger {
+  height: 20vw;
+}
+.bigger-input {
+  height: 7vw;
+}
+.btn {
+  z-index: 20;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer; 
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 36px;
+  transition-duration: .5s;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.btn, .btn:hover, .btn:active, .btn:focus {
+  text-decoration: none;
+  outline: none; 
+}
+.btn::-moz-focus-inner {
+  border: 0;
+  padding: 0; 
+}
+.btn-white {
+  color: black; 
+}
+.btn-white {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff; 
+}
+.btn-raised:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4); 
+}
+.footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.122);
+}
+@media screen and (max-width: 767px) {
+  .header__wrapper {
+    position: fixed;
+    background: black;
+    width: 100%;
+  }
+  .partnership-info {
+    font-size: 6vw;
+    padding: 0;
+    margin: 0;
+  }
+  .partnership {
+    margin: 0 15px;
+  }
+  .partnership-subtitle {
+    font-size: 5.6vw;
+    padding: 0;
+  }
+  .partnership-title {
+    font-size: 6vw;
+    padding: 0;
+  }
+  .profile {
+    font-size: 6vw;
+  }
+  .btn {
+    margin-left: 115px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__wrapper {
+    position: fixed;
+    background: black;
+    width: 100%;
+  }
+  .partnership-title {
+    padding-top: 110px;
+  }
+  .partnership-subtitle {
+    padding-top: 30px;
+  }
+  .partnership-info {
+    font-size: 6vw;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .input-profile {
+    width: 400px;
+  }
+  .btn {
+    padding-left: 10px;
+  }
+}
+@media screen and (width: 768px) {
+  .partnership-subtitle {
+    font-size: 4.5vw;
+  }
+  .profile {
+    font-size: 4vw;
+  }
+  .input-profile {
+    width: 700px;
+  }
+  .btn {
+    margin-left: 250px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .partnership-title {
+    padding-top: 70px;
+    font-size: 7vw;
+  }
+  .partnership-subtitle {
+    padding-top: 10px;
+  }
+  .partnership-info {
+    font-size: 7vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+}
+
